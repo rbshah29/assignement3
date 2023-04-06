@@ -1,0 +1,38 @@
+// Author: Shvet Kantibhai Anaghan (sh618812@dal.ca) || (BannerID: B00917946)
+
+.app_forgot {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.forgot_div {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 5px 30px 0 rgba(55, 84, 170, 0.16);
+  border-radius: 8px;
+}
+
+.name_title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.forgot_tittle_div {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 26px;
+}
+.video-wrapper_forgot {
+  position: absolute;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}

@@ -1,0 +1,29 @@
+// Author: Shvet Kantibhai Anaghan (sh618812@dal.ca) || (BannerID: B00917946)
+
+.home-page {
+  width: 50%;
+
+  @media only screen and (max-width: 768px) {
+    width: 80%;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+    margin-top: 3.2rem;
+    margin-bottom: 0.6rem;
+  }
+
+  p {
+    margin-bottom: 1.6rem;
+    font-size: 1.3rem;
+    color: #939393;
+  }
+
+  button {
+    width: 50%;
+
+    @media only screen and (max-width: 768px) {
+      width: 80%;
+    }
+  }
+}

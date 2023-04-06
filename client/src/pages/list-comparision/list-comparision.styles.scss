@@ -1,0 +1,65 @@
+/*
+    Author: Utsavkumar Jayantibhai Italiya - ut437158@dal.ca (B00935447)
+*/
+$clr-primary: #d0def2;
+$primary-color: #1091e1;
+$clr-primary-light: #f3f8fe;
+$clr-primary-dark: #a7bad3;
+
+  .car-image {
+    object-position: center;
+    width: 500px;
+    float: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 250px;
+    background-size: cover;
+    object-fit: cover;
+  }
+
+
+
+.car-table {
+  width: 70%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  box-shadow: 20px $clr-primary-dark;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  overflow: visible;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  margin: auto;
+}
+
+.car-table th,
+.car-table td {
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  margin :10px;
+}
+
+.car-table tr {
+  text-align: center;
+}
+
+.car-table th {
+  background-color: #eee;
+}
+.car-table tr:nth-child(even) {
+  background-color: #eee;
+}
+
+tbody td:last-child {
+  text-align: center;
+  white-space: wrap;
+}
+

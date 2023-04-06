@@ -1,0 +1,40 @@
+/*
+    Author: Shivam Nikunjbhai Patel - sh732170@dal.ca (B00917152)
+*/
+
+.app {
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    grid-template-rows: 1fr;
+    font-family: "Poppins", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    @media only screen and (max-width: 1300px) {
+        grid-template-columns: 20% 1fr;
+    }
+
+    @media only screen and (max-width: 900px) {
+        grid-template-columns: 100vw;
+        overflow: hidden;
+    }
+
+    .navigation__wrapper {
+        grid-column: 1/2;
+
+        @media only screen and (max-width: 1300px) {
+            grid-column: initial;
+        }
+    }
+
+    .main-section {
+        height: 100vh;
+        overflow: scroll;
+        padding: 1.2rem 2.4rem;
+
+        @media only screen and (max-width: 900px) {
+            padding-inline: 1rem;
+            margin-top: 5.6rem;
+        }
+    }
+}

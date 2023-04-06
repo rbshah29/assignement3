@@ -1,0 +1,66 @@
+// Author: Shvet Kantibhai Anaghan (sh618812@dal.ca) || (BannerID: B00917946)
+
+.app_update {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.button_con_regi {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.update-input-con {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.update_div {
+  background-color: white;
+  padding: 2rem;
+  padding-bottom: 1rem;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.required_res {
+  color: red;
+}
+
+.reg_tile {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: black;
+}
+
+.input-con {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 2px;
+}
+
+.lable-regi {
+  font-size: 16px;
+  font-family: bold;
+}
+.video-wrapper_Reg {
+  position: absolute;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}

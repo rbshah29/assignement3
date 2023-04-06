@@ -1,0 +1,24 @@
+/*
+    Author: Shivam Nikunjbhai Patel - sh732170@dal.ca (B00917152)
+*/
+
+.logo {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    cursor: pointer;
+
+    a {
+        color: white;
+    }
+
+    .middle {
+        color: rgb(221, 221, 221);
+        color: #1091e1;
+        font-weight: 800;
+    }
+
+    & span {
+        font-weight: 600;
+    }
+}
